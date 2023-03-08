@@ -1,3 +1,3 @@
 # GRPC
 
-grpc chattign Application with whatsapp like UI
+grpc chatting Application with whatsapp like UI
