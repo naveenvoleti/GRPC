@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package grpc;
+option go_package = "example.com/grpc;grpc";
+
+message Request{
+ string a =1;
+}
+
+message Response{
+  string result =1;
+}
+
+service AddService {
+  rpc Chat(Request) returns (Response);
+}
+
